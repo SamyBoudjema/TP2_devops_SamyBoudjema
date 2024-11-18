@@ -1,6 +1,6 @@
 services:
   convos:
-    image: nordaaker/convos:latest
+    image: ghcr.io/convos-chat/convos:stable
     container_name: convos
     ports:
       - "2021:3000" 
