@@ -1,3 +1,5 @@
+#!/bin/bash
+
 RELEASE=$(head -n 1 <  /etc/lsb-release | cut -d '=' -f 2)
 
 if [ "$RELEASE" = "Ubuntu" ]; then
